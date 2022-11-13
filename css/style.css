@@ -184,6 +184,8 @@
     color: #fff;
     text-decoration: none;
     width: 227px;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
     min-height: 55px;
     font-weight: 700;
     font-family: "Open Sans";
