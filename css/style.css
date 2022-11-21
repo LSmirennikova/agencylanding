@@ -76,6 +76,10 @@
     scroll-behavior: smooth;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* Page */
 
 .page {
@@ -603,17 +607,17 @@
 
 .subscribe__heading {
     margin: 0;
-    margin-bottom: 21px;
+    margin-bottom: 17px;
     color: #fff;
     font-family: "Open Sans";
     font-size: 42px;
     font-weight: 700;
-    line-height: 0.7;
+    line-height: 1.15;
 }
 
 .subscribe__about {
     margin: 0;
-    margin-bottom: 62px;
+    margin-bottom: 59px;
     color: #fff;
     font-family: "Open Sans";
     font-size: 16px;
