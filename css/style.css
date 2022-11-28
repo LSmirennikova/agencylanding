@@ -692,6 +692,7 @@ button {
 
 .subscribe {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     max-width: 1249px;
@@ -726,6 +727,7 @@ button {
 }
 
 .subscribe__email {
+    box-sizing: border-box;
     margin: 0;
     width: 521px;
     height: 79px;
@@ -733,6 +735,12 @@ button {
     border-radius: 5px;
     background-color: #fff;
     border: none;
+}
+
+@media screen and (max-width: 800px) {
+    .subscribe__email {
+        width: 100%;
+    }
 }
 
 .subscribe__button {
