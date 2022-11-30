@@ -598,6 +598,10 @@ button {
     min-width: 297px;
 }
 
+.feature__product:hover {
+    transform: scale(1.1);
+}
+
 /* Team */
 .team {
     max-width: 1249px;
