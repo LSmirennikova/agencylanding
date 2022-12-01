@@ -256,7 +256,7 @@ button {
     background-color: #ff3f40;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     .popup-menu {
         display: none;
     }
@@ -370,6 +370,7 @@ button {
         width: 100%;
     }
 }
+
 
 /* Services */
 
@@ -490,10 +491,22 @@ button {
     line-height: 1.2;
 }
 
+@media screen and (max-width: 800px) {
+    .services__title {
+        width: 285px;
+    }
+}
+
 .services__text {
     font-family: "Open Sans";
     font-size: 16px;
     line-height: 1.75;
+}
+
+@media screen and (max-width: 800px) {
+    .services__text {
+        width: 285px;
+    }
 }
 
 /* Features */
