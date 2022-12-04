@@ -137,10 +137,6 @@ button {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* .site-menu {
-    margin-left: -30px;
-} */
-
 @media screen and (max-width: 600px) {
     .site-menu {
         margin-left: initial;
